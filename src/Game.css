@@ -1,0 +1,22 @@
+.App {
+  align-items: center;
+}
+
+.Board {
+  position: relative;
+  margin: 0 auto;
+  background-color: lightgrey;
+  background-image: linear-gradient(#dfdfdf 1px, transparent 1px),
+    linear-gradient(90deg, #dfdfdf 1px, transparent 1px);
+}
+
+.Cell {
+  background: #0798c9;
+  position: absolute;
+}
+
+.GameHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
